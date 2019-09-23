@@ -1,0 +1,99 @@
+1. Newton Second Law
+
+        ----Algoritma----
+
+    1. Masukan nilai massa
+    2. Masukan nilai percepatan
+    3. Lakukan perkalian pada nilai massa dan percepatan
+    4. Tulis hasil perkalian
+
+        ----Pseudocode----
+
+    STORE "mass" with any value
+    STORE "acceleration" with any value
+    STORE "force" without any  value
+
+    CALCULATE "mass" times "acceleration"
+    SET "force" value with calculation result
+
+    DISPLAY "force"
+
+----------------------------------------------------
+
+    STORE "mass" with 600
+    STORE "acceleration" with 2
+    STORE "force" without any value
+
+    CALCULATE "600" times "2"
+    SET "force" value with calculation result
+
+    DISPLAY "1200"
+
+
+
+2. Tahun Kabisat
+
+        ----Algoritma-----
+
+    1. Tentukan nilai tahun yang ingin diketahui
+    2. Bagikan nilai tahun dengan 4
+    3. Jika bersisa, maka 'Bukan Tahun Kabisat'
+    4. Jika tidak bersisa, bagikan dengan 100
+    5. Jika bersisa, maka 'Tahun Kabisat'
+    6. Jika tidak bersisa, maka lakukan nilai tahun dibagi 4
+    7. Jika bersisa, maka 'Bukan Tahun Kabisat'
+    8. Jika tidak bersisa, lakukan nilai tahun dibagi 100
+    9. Jika bersisa, maka 'Bukan Tahun Kabisat'
+    10. Jika tidak bersisa, lakukan nilai tahun dibagi 400
+    11. Jika bersisa, maka 'Bukan Tahun Kabisat'
+    12. Jika tidak bersisa, maka 'Tahun Kabisat'
+
+        ----Pseudocode----
+
+    if (tahun%4 == 0 && tahun%100) then
+        DISPLAY (Tahun Kabisat)
+    else if ( tahun%4 == 0 && tahun%100 == 0 && tahun%400 == 0) then
+            DISPLAY (Tahun Kabisat)
+        else
+            DISPLAY ( Bukan Tahun Kabisat)
+
+
+3. Laundry Day
+
+        ----Algoritma----
+
+    1. Masukan 1 pakaian ke dalam mesin cuci
+    2. Jika jumlah pakaian dalam mesin cuci belum 20, masukan 1 pakaian lagi
+    3. Jika jumlah pakaian dalam mesin cuci sudah 20, nyalakan mesin cuci 
+
+        ----Pseudocode----
+
+    STORE "jumlah pakaian dalam mesin cuci" with 0
+
+    WHILE "jumlah pakaian dalam mesin cuci" <20
+     ADD "jumlah pakaian dalam mesin cuci" by 1
+
+    DISPLAY "Nyalakan mesin cuci"
+
+
+4. Periksa kuku
+
+        ----Algoritma----
+    
+    1. Periksa siswa/i satu demi satu sampai 40 orang
+    2. Jika ada siswa/i yang memiliki kuku panjang, maka hukum siswa/i tersebut
+    3. Jika ada siswa/i yang memiliki kuku pendek, maka puji siswa/i tersebut
+
+
+
+        ----Pseudocode----
+
+    STORE "siswa/i diperiksa" with 0
+
+    WHILE "siswa/i diperiksa" <41
+        ADD "siswa/i diperiksa" by 1
+
+        if (kuku panjang) then
+            DISPLAY "Hukum siswa/i"
+        else 
+            DISPLAY "Puji siswa/i"
