@@ -50,6 +50,16 @@
 
         ----Pseudocode----
 
+        IF tahun MOD 4 equals 0 AND tahun MOD 100 not equals 0 then
+            DISPLAY tahun kabisat
+        ELSE IF tahun MOD 4 equals 0 AND tahun MOD 100 equals 0 AND tahun MOD 400 equals 0
+                DISPLAY tahun kabisat
+            ELSE 
+                DISPLAY bukan tahun kabisat 
+
+
+        ------------------
+
     if (tahun%4 == 0 && tahun%100) then
         DISPLAY (Tahun Kabisat)
     else if ( tahun%4 == 0 && tahun%100 == 0 && tahun%400 == 0) then
