@@ -60,11 +60,11 @@
 
         ------------------
 
-    if (tahun%4 == 0 && tahun%100) then
+    IF (tahun%4 == 0 && tahun%100) then
         DISPLAY (Tahun Kabisat)
-    else if ( tahun%4 == 0 && tahun%100 == 0 && tahun%400 == 0) then
+    ELSE IF ( tahun%4 == 0 && tahun%100 == 0 && tahun%400 == 0) then
             DISPLAY (Tahun Kabisat)
-        else
+        ELSE
             DISPLAY ( Bukan Tahun Kabisat)
 
 
@@ -103,7 +103,7 @@
     WHILE "siswa/i diperiksa" <41
         ADD "siswa/i diperiksa" by 1
 
-        if (kuku panjang) then
+        IF (kuku panjang) then
             DISPLAY "Hukum siswa/i"
-        else 
+        ELSE 
             DISPLAY "Puji siswa/i"
