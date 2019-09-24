@@ -1,6 +1,7 @@
 var nama = '';
 var peran = '';
 
+
 if (nama == ''){
   console.log('"Nama harus diisi!"');
 } else if (peran == ''){
