@@ -3,6 +3,7 @@ var bulan = 12;
 var tahun = 1990;
 
 
+
 if (tanggal>=32 || tahun>2200 || tahun<1990){
   console.log('isi tanggal, bulan dan tahun yang valid.');
 } else {
