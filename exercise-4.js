@@ -45,7 +45,7 @@ if (tanggal>=32 || tanggal<1 || tahun>2200 || tahun<1990){
     console.log(tanggal + ' Desember ' + tahun);
     break;}
     default:{
-      console.log('bulan lu ngawur');
+      console.log('isi tanggal, bulan dan tahun yang valid.');
     }
    }
 }
