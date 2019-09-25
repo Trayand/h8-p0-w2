@@ -1,12 +1,12 @@
-var tanggal = 30;
-var bulan = 12;
+var tanggal = 3;
+var bulan = 14;
 var tahun = 1990;
 
 
 
-if (tanggal>=32 || tahun>2200 || tahun<1990){
+if (tanggal>=32 || tanggal<1 || tahun>2200 || tahun<1990){
   console.log('isi tanggal, bulan dan tahun yang valid.');
-} else {
+} else{
  switch(bulan) {
   case 1: {
     console.log( tanggal + ' Januari ' + tahun );
@@ -44,5 +44,9 @@ if (tanggal>=32 || tahun>2200 || tahun<1990){
     case 12:{
     console.log(tanggal + ' Desember ' + tahun);
     break;}
+    default:{
+      console.log('bulan lu ngawur');
+    }
    }
 }
+

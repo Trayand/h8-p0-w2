@@ -1,5 +1,5 @@
-var nama = '';
-var peran = '';
+var nama = 'ayam';
+var peran = 'Tabib';
 
 
 if (nama == ''){
