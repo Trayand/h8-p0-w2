@@ -6,6 +6,10 @@ function bandingAngka (angka1, angka2){
    } else {
        return -1;
    }
+
+
+
+      
 }
 
 // test console

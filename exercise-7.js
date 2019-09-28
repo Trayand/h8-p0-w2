@@ -24,15 +24,12 @@ while (row2>0){
 console.log('\n');
 
 // 3. Menyusun Barisan Tangga Bintang Dengan Nested Looping
-var row3 = 0
-var h = 0
-var bintang = ''
 
-while (row3<5){
-    row3++
-    while (h<row3){
-        bintang = bintang + '*'
-        h++
-    }
-    console.log(bintang);
+var arr = 5
+var pop = ''
+
+for(i=1;i<=arr;i++){
+    pop += '*'
+ 
+    console.log(pop);
 }

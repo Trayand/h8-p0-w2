@@ -1,6 +1,11 @@
 function konversiMenit(angka) {
     var jam = Math.floor(angka/60);
     var menit = angka % 60;
+
+    if (menit<10){
+      menit = '0' + menit
+    }
+
     return jam + ':' + menit;
 
 

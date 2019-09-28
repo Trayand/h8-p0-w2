@@ -1,9 +1,12 @@
-function balikKata(str){
-    var splitString = str.split('');
-    var reverseArray = splitString.reverse();
-    var joinArray = reverseArray.join('');
-    return joinArray;
-}
+
+
+function balikKata (str){
+    var tampungan =''
+      for(i=str.length-1;i>=0;i--){
+        tampungan += str[i]
+      }
+      return tampungan
+    }
 
 
 

@@ -13,6 +13,8 @@ function xo(str) {
 
     return jlhX === jlhO
   }
+
+
   
   // TEST
   console.log(xo('xoxoxo')); // true
